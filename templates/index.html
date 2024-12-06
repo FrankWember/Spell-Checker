@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winter Spell Checker</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script defer src="/static/script.js"></script>
+    <script defer src="/static/snowflakes.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-snowflake"></i> Levenshtein Winter Spell Checker</h1>
+            <p>Type a word to see suggestions, and enjoy the winter vibes!</p>
+        </header>
+
+        <main>
+            <div class="search-box">
+                <input type="text" id="word-input" placeholder="Type here..." autocomplete="off">
+                <ul id="suggestions-list"></ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>Made with ❄️ by Frank Wember &copy; 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
